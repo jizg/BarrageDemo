@@ -71,3 +71,55 @@ $(document).ready(function () {
         }
     }
 );
+/*
+window.addEventListener('load', function(){
+    var CM = new CommentManager(document.getElementById('my-comment-stage'));
+    CM.init(); // 初始化
+
+    // 启动播放弹幕（在未启动状态下弹幕不会移动）
+    CM.start();
+    // 绑定按钮们
+    document.getElementById('btnLoadTimeline').addEventListener('click', function(e){
+        e.preventDefault(); // 抑制默认操作
+        var danmakuTimeline = [
+            {
+                "mode":1,
+                "text":"Hello World",
+                "stime":0,
+                "size":25,
+                "color":0xffffff
+            }
+        ];
+        CM.load(danmakuTimeline);
+    });
+    
+    document.getElementById('btnInsertTimeline').addEventListener('click', function(e){
+        e.preventDefault(); // 抑制默认操作
+        var danmaku = {
+            "mode":1,
+            "text":"Hello CommentCoreLibrary",
+            "stime":1000,
+            "size":30,
+            "color":0xff0000
+        };
+        CM.insert(danmaku);
+    });
+    
+    var startTime = 0, iVal = -1;
+    document.getElementById('btnTimer').addEventListener('click', function(e){
+        e.preventDefault(); // 抑制默认操作
+        startTime = Date.now(); // 设定起始时间
+        if(iVal >= 0){
+            clearInterval(iVal); // 如果之前就有定时器，把它停掉
+        }
+        //建立新的定时器
+        iVal = setInterval(function(){
+            var playTime = Date.now() - startTime; // 用起始时间和现在时间的差模拟播放
+            CM.time(playTime); // 通报播放时间
+            document.getElementById('txPlayPos').textContent = playTime; // 显示播放时间
+        }, 100); // 模拟播放器每 100ms 通报播放时间
+    });
+    
+    // 开放 CM 对象到全局这样就可以在 console 终端里操控
+    window.CM = CM;
+}); */
