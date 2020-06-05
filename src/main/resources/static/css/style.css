@@ -13,7 +13,7 @@ body{font-family: "微软雅黑"; color: black}
      left: 10px; bottom: 50px; float: left;}
 
 .inpu-box{width: 570px; height: 40px; border: darkseagreen 2px solid; position: absolute;
-    left: 0; bottom: 0; line-height: 40px; vertical-align: middle; }
+    left: 0; bottom: 0; line-height: 40px; vertical-align: bottom; }
 
 .button{width: 80px; height: 40px; border: rgb(87,175,253) 2px solid; position: absolute;
     right: 0; bottom: 0; text-align: center; background: antiquewhite;}
