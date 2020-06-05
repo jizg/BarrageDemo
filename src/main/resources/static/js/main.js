@@ -76,7 +76,7 @@ var index = 0;
 function bilibiliFormater(comment) {
 	var templates = [
 		"<?xml version=\"1.0\" encoding=\"UTF-8\"?><i><chatserver>chat.bilibili.tv</chatserver><chatid>170102</chatid><d p=\"94,1,25,16777215,1307940958,0,Da9e216f,30723621\">{comment}</d></i>",
-        "<?xml version=\"1.0\" encoding=\"UTF-8\"?><i><chatserver>chat.bilibili.tv</chatserver><chatid>170102</chatid><d p=\"1.9500000476837,7,12,0,1304950431,1,b82a51a3,26514873\">[\"162\",\"285\",\"1-0\",\"6\",{comment},\"0\",\"0\",\"161\",\"360\",\"6000\",\"0\"]</d></i>",
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?><i><chatserver>chat.bilibili.tv</chatserver><chatid>170102</chatid><d p=\"1.9500000476837,7,12,0,1304950431,1,b82a51a3,26514873\">[\"162\",\"285\",\"1-0\",\"6\",\"{comment}\",\"0\",\"0\",\"161\",\"360\",\"6000\",\"0\"]</d></i>",
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?><i><chatserver>chat.bilibili.tv</chatserver><chatid>170102</chatid><d p=\"62.5,1,25,39423,1309764903,0,D7db7038,34406385\">{comment}</d></i>",
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?><i><chatserver>chat.bilibili.tv</chatserver><chatid>170102</chatid><d p=\"44.049999237061,7,36,16777215,1304950431,1,b82a51a3,26515093\">[\"194\",\"178\",\"0-1\",\"4.0\",\"{comment}\"]</d></i>",
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?><i><chatserver>chat.bilibili.tv</chatserver><chatid>170102</chatid><d p=\"86.800003051758,4,18,16711680,1316669406,0,1086a4ae,51534405\">{comment}</d></i>",
